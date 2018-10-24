@@ -33,9 +33,9 @@
 构造函数 
 ----
 
-<p><code>
+<pre><code>
  sMotor(PinName A0, PinName A1, PinName A2, PinName A3,int stepsPerTurn,uint8_t polarMask); 
- </code></p> 
+ </code></pre> 
 
  参数
 -----
@@ -48,7 +48,10 @@
 
 控制函数
 ----
+
+<pre><code>
 void step(float degree, int speed);
+</code></pre> 
 
 参数
 ---
