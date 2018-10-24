@@ -29,6 +29,17 @@
 | 1 |     |     |   |   |   |  1  |  1  |  1 |     |
 
 ## sMotor 类
+### 构造函数  
+<p><code>
+ sMotor(PinName A0, PinName A1, PinName A2, PinName A3,int stepsPerTurn,uint8_t polarMask); 
+ </code></p> 
+参数：
+ - A0,A1,A2,A3 分别为 A，B，A-，B- ，其中A，A-为一组。B，-B 为另一组。
+ - stepPerTurn 每转脉冲数
+ - polarMask 极性选择
+   - 0 极性不变，
+   - 1 极性反向
+
 
 
 
