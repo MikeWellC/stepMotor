@@ -42,10 +42,10 @@
 -----
 
   +  A0,A1,A2,A3 分别为 A，B，A-，B- ，其中A，A-为一组。B，-B 为另一组。
-  +  stepPerTurn 每转脉冲数
-  + polarMask 极性选择
-   - 0 极性不变，
-   - 1 极性反向
+  +  stepPerTurn 每转脉冲数。
+  + polarMask 极性选择。
+    - 0 极性不变。
+    - 1 极性反向。
 
 控制函数
 ----
@@ -57,9 +57,9 @@ void step(float degree, int speed);
 参数
 ---
 + degree  角度
-  + 大于零，为顺时针
-  + 小于零，为逆时针
-+ speed 转速，单位是 转/分钟
+  + 大于零，为顺时针。
+  + 小于零，为逆时针。
++ speed 转速，单位是 转/分钟。
 
 
 
